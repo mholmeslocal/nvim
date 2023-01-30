@@ -89,6 +89,9 @@ return require('packer').startup(function(use)
   -- commenting with gc
   use("numToStr/Comment.nvim")
 
+  -- colorizer
+  use("norcalli/nvim-colorizer.lua")
+
   -- Terminal
   use ({"akinsho/toggleterm.nvim", tag = '*'})
   -- Automatically set up your configuration after cloning packer.nvim
